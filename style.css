@@ -1,0 +1,86 @@
+body {
+  padding: 40px;
+}
+
+.header-spacing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 40px; */
+}
+.section-top {
+  display: flex;
+}
+.menu-desktop a {
+  text-decoration: none;
+  padding: 0 12px;
+  color: #aaaaaa;
+}
+.menu-desktop a:hover {
+  color: #ff6ab2;
+  transition: 600ms;
+}
+.promo-top-monster {
+  display: flex;
+  justify-content: space-between;
+}
+.promo-top-monster {
+  margin-top: 40px;
+}
+
+.promo-top-monster h1 {
+  font-weight: 20px;
+  font-size: 10vh;
+}
+.promo-text p {
+  color: #ff6ab2;
+  font-size: 3vh;
+}
+
+main img {
+  width: 100%;
+}
+main .promo-top-monster button {
+  margin-top: 24px;
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: "Avenir Next";
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  color: $color-black;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  cursor: pointer;
+}
+.lower-text-gradien h1 {
+  padding: 0;
+}
+.lower-text-gradien {
+  border-radius: 6px;
+  /* padding: 24px; */
+  padding-top: 64px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(18deg 92% 49%) 0%,
+    hsl(27deg 100% 49%) 10%,
+    hsl(34deg 100% 50%) 20%,
+    hsl(41deg 100% 50%) 30%,
+    hsl(48deg 100% 50%) 40%,
+    hsl(55deg 100% 50%) 50%,
+    hsl(62deg 100% 47%) 60%,
+    hsl(69deg 100% 48%) 70%,
+    hsl(77deg 100% 48%) 80%,
+    hsl(87deg 100% 49%) 90%,
+    hsl(103deg 98% 54%) 100%
+  );
+}
