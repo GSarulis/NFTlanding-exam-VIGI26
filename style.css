@@ -1,0 +1,162 @@
+body {
+  margin: 20px 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER MENU CODE */
+.header-spacing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-top {
+  display: flex;
+}
+.menu-desktop a {
+  text-decoration: none;
+  padding: 0 12px;
+  color: #aaaaaa;
+}
+.menu-desktop a:hover {
+  color: #ff6ab2;
+  transition: 600ms;
+}
+/* END */
+
+/* MAIN STARTS HERE */
+
+.promo-top-monster {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.promo-text h1 {
+  font-weight: 20px;
+  font-size: 10vh;
+}
+.promo-text p {
+  color: #ff6ab2;
+  font-size: 20px;
+}
+
+main img {
+  width: 100%;
+}
+button {
+  margin-top: 24px;
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: "Avenir Next";
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  color: black;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  cursor: pointer;
+}
+
+.img-container-prome {
+  background-image: url(./background.svg);
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.icons-midle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.companies-1 .companies-2 .companies-3 .companies-4 .companies-5 {
+  width: 20%;
+}
+
+.super-rare {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.super-rare h2 {
+  margin: 0;
+  padding-left: 0;
+  text-align: left;
+}
+.super-rare p {
+  margin-bottom: 40px;
+}
+
+.cards-spacing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-NFT {
+  width: 20%;
+  border: 1px solid #e3e3e3;
+  background-color: #eeeeee;
+  margin-right: 3vh;
+  border-radius: 12px;
+}
+.cards-two-text-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text-left p,
+h2 {
+  margin: 4px;
+  text-align: left;
+  padding: 8px;
+}
+.card-text-left h2 {
+  padding-left: 8px;
+}
+.card-text-right p,
+h2 {
+  margin: 4px;
+  text-align: right;
+  padding: 8px;
+}
+.footer-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px #aaaaaa solid;
+  border-bottom: 1px #aaaaaa solid;
+}
+.footer-img-right {
+  padding-top: 20px;
+  padding-right: 20%;
+}
+
+.footer-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-nav-icons {
+  width: 15%;
+}
+
+.navigation-links {
+}
+
+.footer-logo-nav-icons i {
+  padding-right: 10px;
+}
